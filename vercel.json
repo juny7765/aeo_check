@@ -19,8 +19,12 @@
             "dest": "/api/index.py"
         },
         {
+            "src": "/assets/(.*)",
+            "dest": "/aeo-audit-app/assets/$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "/index.html"
+            "dest": "/aeo-audit-app/index.html"
         }
     ]
 }
